@@ -1,0 +1,37 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+    "vividorange": #F7931D
+); 
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$custom-sizes: (
+    "7": 0.75rem
+);
+$font-sizes: map-merge($font-sizes , $custom-sizes);
+
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+
+$vividorange:#F7931D;
+
+.btn-vividorange {
+    @include button-variant(
+        $vividorange, 
+        $vividorange,
+        #fff,
+        $hover-color:#fff,
+        $active-color:#fff,
+        $disabled-color:#fff
+    );
+}
+
+.btn-outline-vividorange {
+    @include button-outline-variant(
+        $vividorange,
+        $color-hover: #fff, 
+        $active-color: #fff
+    );
+}

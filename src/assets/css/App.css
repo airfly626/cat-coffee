@@ -1,0 +1,17 @@
+.gradient-start {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(135deg, #f50909  0, #824b06 100%);
+    /* background-size: 100%; */
+    /* -webkit-box-decoration-break: clone; */
+}
+
+.coffee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.main-bg-color {
+  background-color: #FAF8F5;
+}
