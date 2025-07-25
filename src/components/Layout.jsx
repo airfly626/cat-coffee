@@ -49,7 +49,7 @@ export default function Layout(props) {
                 <div className="row">
                     <div className="col py-3 pt-5 text-center">
                         <span className="gradient-start fw-bolder">Cat Coffee</span> was made by
-                            <a target="_blank" href="#"> Ada Chen </a> using the
+                            <a target="_blank" href="https://airfly-project.netlify.app/"> Ada Chen </a> using the
                             <a href="https://react.dev/" target="_blank"> React </a> and
                             <a target="_black" href="https://getbootstrap.com/"> Bootstrap </a>!
                     </div>
